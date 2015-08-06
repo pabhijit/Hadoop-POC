@@ -33,7 +33,8 @@ public class ImportUsingSqoop {
 //2. create a table in hive manually.
 //3. Load this downloaded file into the hive table.
 //To directly move data using sqoop to the hive, there is --hive-import in sqoop command line.
-
+//options.setHiveImport(true);
+//options.setOverwriteHiveTable(true);
 //Useful link: https://sqoop.apache.org/docs/1.4.3/SqoopUserGuide.html#_selecting_the_data_to_import
 
 
